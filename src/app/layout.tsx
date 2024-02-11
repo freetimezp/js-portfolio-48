@@ -4,7 +4,7 @@ import "./globals.css";
 
 const urbanist = Urbanist({ subsets: ["latin"] });
 
-import Header from '@/components/Header';
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Portfolio | Prismic",
