@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useRef, useState, useEffect } from "react";
 import { asImageSrc, isFilled } from "@prismicio/client";
 import { gsap } from "gsap";
