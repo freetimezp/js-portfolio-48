@@ -5,6 +5,7 @@ import "./globals.css";
 const urbanist = Urbanist({ subsets: ["latin"] });
 
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Portfolio | Prismic",
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={urbanist.className} suppressHydrationWarning={true}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
